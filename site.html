@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apple News & Promotions</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #1d1d1f;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    .news-article, .promo {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .news-article img, .promo img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍏 Apple Insider Blog</h1>
+    <p>Stay updated with the latest Apple news and exclusive device deals</p>
+  </header>
+
+  <nav>
+    <a ="#">Home</a>
+    <a ="#news">Apple News</a>
+    <a ="#promotions">Promotions</a>
+    <a ="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <!-- Apple News Section -->
+    <section id="news">
+      <h2>📢 Latest Apple News</h2>
+
+      <div class="news-article">
+        <h3>iPhone 16 Expected to Launch in October</h3>
+        <p>Apple is rumored to unveil the iPhone 16 with an improved A18 chip and upgraded camera features. Expect a launch event in mid-October 2025.</p>
+        <img src="images/iphone16.jpg" alt="iPhone 16 Rumors">
+      </div>
+
+      <div class="news-article">
+        <h3>macOS Sequoia Public Beta Now Available</h3>
+        <p>The new macOS Sequoia introduces dynamic widgets, better Continuity features, and performance upgrades. Public beta is now open for all users.</p>
+        <img src="images/macos-sequoia.jpg" alt="macOS Sequoia">
+      </div>
+    </section>
+
+    <!-- Promotions Section -->
+    <section id="promotions">
+      <h2>🔥 Apple Device Promotions</h2>
+
+      <div class="promo">
+        <h3>Save $200 on MacBook Air M3</h3>
+        <p>Get the latest MacBook Air with the M3 chip at a limited-time discount. Perfect for students and professionals.</p>
+        <img src="images/macbook-air-m3.jpg" alt="MacBook Air M3">
+        <p><a ="#" style="color: #0071e3; font-weight: bold;">Shop Now →</a></p>
+      </div>
+
+      <div class="promo">
+        <h3>Apple Watch Series 9 – 20% Off</h3>
+        <p>Track your health and stay connected with the powerful Apple Watch Series 9, now available at a special price.</p>
+        <img src="images/apple-watch-s9.jpg" alt="Apple Watch Deal">
+        <p><a ="#" style="color: #0071e3; font-weight: bold;">View Offer →</a></p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>📬 Contact Us</h2>
+      <p>Have questions or want to partner with us? Email: </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Apple Insider Blog. Not affiliated with Apple Inc.</p>
+  </footer>
+
+</body>
+</html>
